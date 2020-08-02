@@ -1,11 +1,42 @@
 
 /* 768px -- tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-  
+  .qualidade img{
+    width: 200px;
+  }
+  .qualidade::after{
+    background-image: url(../images/qualidade/linhas-tablet.svg);
+    left: 47px;
+    top: 230px;
+  }
+  .qualidade-lista li {
+    padding: 0 10px;
+  }
+  /* Produtos */
+  .produtos ul li h3{
+    padding-top: 20px;
+  }
+  /* Footer */
+  .footer-sociais ul li a  {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .footer-sociais ul li a img {
+    width: 25px;
+  }
 }
 
 /* 768px -- smartphone */
+
 @media only screen and (max-width: 787px) {
+
+  /* Gerais */
+  .call-to-action {
+    padding: 20px;
+  }
+
+  /* Header */
   .subtitulo {
     margin-bottom: 30px;
   }
@@ -37,9 +68,13 @@
     margin: 0px auto;
   } 
   .intro h1 {
-    padding-top: 30px;
+    padding-top: 60px;
+    font-size: 36px;
   }
-
+  /* Produtos */
+  .produtos ul li h3{
+    padding-top: 20px;
+  }
   /* Qualidade */
   .qualidade::after {
     display: none;
