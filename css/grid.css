@@ -98,7 +98,7 @@
 }
 
 /* 768px -- tablet */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 788px) and (max-width: 979px) {
   .container {
     width: 768px;
   }
@@ -156,7 +156,7 @@
 }
 
 /* 768px -- smartphone */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 787px) {
   .container {
     width: 300px;
   }
