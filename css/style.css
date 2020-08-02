@@ -1,0 +1,359 @@
+/* Estilo Getal */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+cite {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  width: 60px;
+  border: solid #000 1px;
+}
+
+
+.btn {
+  color: #fec63e;
+  border: solid 3px #fec63e;
+  padding: 15px 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: .1em;
+}
+
+.btn:hover {
+  color: #ffffff;
+  border-color: #fff;
+  transition-duration: 200ms;
+}
+.btn.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+  transition-duration: 200ms;
+ }
+.subtitulo {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  margin-bottom: 60px;
+}
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#000;
+  margin: 8px auto;
+}
+.subtitulo-interno {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  margin-bottom: 20px;
+}
+.subtitulo-interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#000;
+  margin: 8px 0;
+}
+
+
+/* Header */
+.header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #fec63e;
+  padding: 15px 0;
+  z-index: 10;
+}
+.header-menu {
+  text-align: right;
+  margin-top: 20px;
+}
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.header-menu ul li a{
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 15px 0;
+}
+.header-menu ul li a:hover{
+  color: #fff;
+  transition-duration: 200ms;
+}
+ul li a.menu-ativo{
+  color:#fff;
+}
+/* Intro */
+
+
+.intro{
+  width: 100%;
+  background: url("../images/bg.png") no-repeat center;
+  background-size: cover;
+  margin: 92px auto;
+  height: 380px;
+  text-align: center;
+}
+.intro h1 {
+  padding-top: 80px;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.intro hr {
+  width: 60px;
+  border: solid #fff 1px;
+}
+.quote-externa{
+  max-width: 320px;
+  color: #fff;
+  margin: 0 auto 60px auto;
+  
+}
+.quote-externa p{
+  line-height: 24px;
+  font-style: italic;
+}
+.quote-externa p::after, .quote-externa p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#fff;
+  margin: 8px auto;
+}
+/*  Intro interna  */
+.intro-interna {
+  text-align: center;
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+}
+.intro-interna h1 {
+  padding-top: 40px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.intro-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#fff;
+  margin: 10px auto;
+}
+/* Produtos */
+.produtos {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.produtos-lista li {
+  background-color: #fec63e;
+}
+.produtos-icone {
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+}
+.produtos-lista li h3{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.produtos-lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#000;
+  margin: 8px auto;
+}
+.produtos-lista li p{
+  background-color: #fec63e;
+  padding: 10px 20px 20px 20px;
+}
+
+.call-to-action {
+  clear: both;
+  text-align: center;
+  padding-top: 40px;
+}
+.call-to-action p{
+  margin-bottom: 20px;
+}
+
+/* Portifólio */
+.portifolio {
+  width: 100%;
+  background-color: #000;
+  padding: 40px 0;
+}
+.portifolio .subtitulo {
+  color: #fec63e;
+}
+.portifolio .subtitulo::after {
+  background-color: #fec63e;
+}
+.portfolio-lista li:last-child{
+  margin-top: 20px;
+}
+.portifolio .call-to-action p {
+  color: #fff;
+}
+
+/* Qualidade */
+
+.qualidade {
+  padding: 60px 0;
+}
+.qualidade img {
+  margin: 0 auto 50px;
+  width: 230px;
+}
+.qualidade::after {
+  content: "";
+  display: block;
+  width: 675px;
+  height: 83px;
+  top: 250px;
+  left: 143px;
+  background:url("../images/qualidade/linhas.svg") no-repeat center;
+  position: absolute;
+  z-index: -1;
+}
+.qualidade-lista {
+  text-align: center;
+  overflow: auto; /*clear fix*/
+}
+
+.qualidade-lista li h3{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.qualidade-lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#000;
+  margin: 8px auto;
+}
+/* Qubra */
+
+.quebra{
+  text-align: center;
+  background: url("../images/quote.jpg") no-repeat center;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  padding-top: 40px;
+}
+.quebra blockquote {
+  max-width: 400px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.footer h3{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 20px 0;
+}
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:#fec63e;
+}
+.footer-contato li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 20px;
+  font-size: 14px;
+}
+.footer-historia {
+  padding-right: 40px ;
+}
+.footer-sociais ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-sociais ul li a img{
+  width: 100%;
+}
+.footer-sociais ul li a{
+  display: block;
+  padding: 5px;
+  border: solid 3px #fec63e;
+  width: 50px;
+  height: 50px;
+}
+.footer-sociais ul li a:hover{
+  border-color: #fff;
+  transition-duration: 300ms;
+}
+
+/* Copy */
+.copy{
+  height: 60px;
+  padding: 20px 0;
+  background-color: #fec63e;
+  text-align: center;
+}
+
+/* **************************************************** */
+/* Intro interna */
