@@ -144,6 +144,7 @@
   .orcamento-dados ul {
     padding: 0;
   }
+
   /* Qualidade */
   .qualidade::after {
     display: none;
@@ -161,5 +162,11 @@
   .missao-sobre p, .missao-sobre ul li {
     font-size: 14px;
     line-height: 21px;
+  }
+
+  /* contato */
+  .contato-form {
+    padding-right: 0;
+    margin-bottom: 40px;
   }
 }
