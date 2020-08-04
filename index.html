@@ -17,11 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsivo.css">
+  <link rel="stylesheet" href="style.css">
   <script>document.documentElement.classList.add("js")</script>
 </head>
 
@@ -85,12 +81,13 @@
     <div class="container">
       <h2 class="subtitulo">
         Portifólio
-        <ul class="portfolio-lista">
       </h2>
-      <li class="grid-8"><img src="images/portifolio/passeio.jpg" alt="Bikcraft Passeio"></li>
-      <li class="grid-8"><img src="images/portifolio/retro.jpg" alt="Bikcraft Retro"></li>
-      <li class="grid-16"><img src="images/portifolio/esporte.jpg" alt="Bikcraft Esporte"></li>
+      <ul class="portfolio-lista">
+        <li class="grid-8"><img src="images/portifolio/passeio.jpg" alt="Bikcraft Passeio"></li>
+        <li class="grid-8"><img src="images/portifolio/retro.jpg" alt="Bikcraft Retro"></li>
+        <li class="grid-16"><img src="images/portifolio/esporte.jpg" alt="Bikcraft Esporte"></li>
       </ul>
+
       <div class="call-to-action">
         <p>conheça mais o nosso portfólio</p>
         <a href="portifolio.html" class="btn">portifólio</a>
@@ -123,7 +120,7 @@
     </div>
   </section>
   <!-- Abre Interceção -->
-  <section class="quebra">
+  <div class="quebra">
     <blockquote class="quote-externa container">
       <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
         cotidiana.”</p>
@@ -131,7 +128,7 @@
         William morris
       </cite>
     </blockquote>
-  </section>
+  </div>
   <!-- Abre Footer -->
   <footer>
     <div class="footer">
@@ -175,9 +172,9 @@
     </div>
 
   </footer>
+  <script src="js/simple-slide.js"></script>
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
-<script src="js/simple-slide.js"></script>
-<script src="js/simple-anime.js"></script>
-<script src="js/script.js"></script>
 
 </html>
