@@ -690,7 +690,7 @@ ul li a.menu-ativo{
 
 .intro{
   width: 100%;
-  background: url(https://lenrd.github.io/bikcraft-site/images/bg.png) no-repeat center;
+  background: url("https://lenrd.github.io/bikcraft-site/images/bg.png") no-repeat center;
   background-size: cover;
   margin: 92px auto;
   height: 380px;
